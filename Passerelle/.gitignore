@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Distribution / packaging
+lib/
+lib64/
+
+# Environments
+.env
+.venv
+env/
+venv/
+_env/
+
+# Others
+.idea
+.vscode
