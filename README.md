@@ -29,3 +29,24 @@ Sauvegarde d'Énergie
     Affichage LED Efficace : Minimisez l'utilisation de la matrice de LED du micro:bit, car elle est l'un des plus gros consommateurs d'énergie sur l'appareil.
 
 En appliquant ces principes, vous pouvez améliorer la sécurité et l'efficacité énergétique de vos projets micro:bit.
+
+
+Sécurité par le Changement de Canal
+
+    Évitement d'Interférence : En changeant régulièrement de canal, vous pouvez réduire le risque d'interférences avec d'autres appareils sans fil, ce qui améliore la fiabilité de la communication.
+
+    Sécurité Améliorée : Le changement fréquent de canaux peut rendre plus difficile pour un attaquant d'intercepter ou de perturber la communication, car il devra suivre les changements de canal.
+
+Économie d'Énergie
+
+    Recherche de Canal Optimisée : Vous pouvez programmer le micro:bit pour qu'il recherche le canal le moins encombré avant d'initier la communication, ce qui peut réduire le temps et l'énergie nécessaires pour établir une connexion fiable.
+
+    Adaptation à l'Environnement : En adaptant dynamiquement le canal de communication en fonction de l'environnement, vous pouvez minimiser les pertes de paquets et les retransmissions, économisant ainsi l'énergie.
+
+Mise en Œuvre sur micro:bit
+
+    Le micro:bit utilise une radio simple qui permet de changer de canal de communication. Vous pouvez programmer le micro:bit pour qu'il change de canal à intervalles réguliers ou en réponse à certaines conditions.
+    Il est important de s'assurer que tous les appareils impliqués dans la communication sont synchronisés et suivent le même schéma de changement de canal.
+    Gardez à l'esprit que la complexité de cette implémentation dépendra de vos compétences en programmation et de la complexité de votre réseau de micro:bits.
+
+En résumé, le changement de canal sur un micro:bit peut être un moyen efficace d'améliorer à la fois la sécurité et l'efficacité énergétique des communications sans fil, à condition qu'il soit correctement implémenté et géré.
